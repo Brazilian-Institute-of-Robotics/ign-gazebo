@@ -52,6 +52,7 @@ set(tests
   sdf_frame_semantics.cc
   sdf_include.cc
   spherical_coordinates.cc
+  thruster.cc
   touch_plugin.cc
   triggered_publisher.cc
   user_commands.cc
