@@ -68,6 +68,11 @@ since pose information is being logged in the `changed_state` topic.
 * The `gui.config` and `server.config` files are now located in a versioned
   folder inside `$HOME/.ignition/gazebo`, i.e. `$HOME/.ignition/gazebo/6/gui.config`.
 
+## Ignition Gazebo 5.2 to 5.3
+
+* If no `<namespace>` is given to the `Thruster` plugin, the namespace now
+  defaults to the model name, instead of an empty string.
+
 ## Ignition Gazebo 4.x to 5.x
 
 * Use `cli` component of `ignition-utils1`.
